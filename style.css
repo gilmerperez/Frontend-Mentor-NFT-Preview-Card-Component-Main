@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card {
+    position: absolute;
+    background-color: hsl(216, 50%, 16%);
+    height: 600px;
+    width: 380px;
+    border-radius: 20px;
+}
+
+.main-card img {
+    position: relative;
+    top: 4.5%;
+    left: 9%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.main-card img:hover {
+    opacity: 0.8;
+    background-color: greenyellow;
+}
+
+.main-card h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+
+.main-card h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.main-card p {
+    color: hsl(216, 19%, 52%);
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.price-info {
+    display: flex;
+    align-items: center;
+}
+
+.main-card .price {
+    color: hsl(178, 100%, 50%);
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.price svg {
+    margin-right: 5px;
+}
+
+.time svg {
+    margin-right: 5px;
+}
+
+.main-card .time {
+    color: hsl(216, 19%, 52%);
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.line {
+    background-color: hsl(215, 32%, 27%);
+    width: 90%;
+    height: 1px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.creator-info {
+    display: flex;
+    align-items: center;
+}
+
+.creator-info img {
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.creator-info p {
+    margin-left: 50px;
+    
+}
+
+.creator-info span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: 0.5s;
+}
